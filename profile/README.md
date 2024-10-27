@@ -1,20 +1,55 @@
-## MITI-Astragale
+<a name="readme-top"></a>
 
-**WIP Readme, come back soon for the roadmap, the detail of the repositories and the contribution !**
+<div align="center">
+
+<h1 align="center">Astragale Project</h1>
+Astragale is a scientific project for bridging Built Cultural Heritage conservation data with mechanical simulation results. 
+
+</div>
+
+#### TOC
+
+- [🔦 Project Summary](#-project-summary)
+- [✨ Features Overview](#-repositories-overview)
+- [📦 Repositories Overview](#-repositories-overview)
+- [📑 References](#-references)
+- [Credits](#credits)
 
 
-<!--
+<!-- - [👋🏻 Getting Started & Join Our Community](#-getting-started--join-our-community)
+- [📦 Extension Installation](#-extension-installation)
+- [✨ Feature Overview](#-feature-overview)
+- [🖥 Environment Support](#-environment-support)
+- [📦 Ecosystem](#-ecosystem)
+- [⌨️ Local Development](#️-local-development)
+- [🤝 Contributing](#-contributing)
+- [🩷 Sponsor](#-sponsor)
+- [🔗 Links](#-links)
+  - [More Products](#more-products)
+  - [Credits](#credits) -->
 
-**Here are some ideas to get you started:**
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## 🔦 Project Summary
+Ensuring the resilience of our built environment requires a comprehensive understanding of structural behavior, particularly when it comes to cultural heritage buildings. These structures are defined not only by their historical and architectural value but also by unique material compositions, specialized construction methods, and conservation challenges. *Astragale* addresses these needs by enhancing data-sharing and computational support, enabling a collaborative environment that bridges disciplines.
 
-### Project Summary
+In line with the endeavours of the [n-Dame_Heritage](http://www.ndameheritage.map.cnrs.fr/) and the Notre-Dame de Paris Ecosystems, *Astragale* aims at facilitating knowledge exchange among civil engineers, architects, and conservation scientists. 
+
+Central to the project is a modular, Knowledge Graph-based framework utilizing Semantic Web technologies. This approach enables structured, interoperable solutions that preserve and share knowledge on heritage buildings’ structural integrity and long-term preservation, fostering a robust foundation for interdisciplinary collaboration and innovative conservation practices.
+
+**Project Focus**
+Astragale focuses on bridging architectural survey data with structural models. Extracted data from simulations will correlate visible alterations with internal weaknesses or load concentration
+
+## ✨ Features Overview
+
+## 📦 Repositories Overview
+> \[!WARNING]
+>
+> Please be aware that Astragale is currently under active development.
+
++ [Semantics](https://github.com/prj-astragale/semantics)
++ [StreamGraphiti](https://github.com/prj-astragale/streamgraphiti)
+
+
 
 Conservation and restoration of built heritage are now commonly supported by scientific analysis, especially in structural assessment. The stability and condition of components are evaluated through materials science and civil engineering, supplemented by archaeometry and art history. This collaborative research, rooted in architectural surveys, is exemplified by the Notre-Dame de Paris scientific project, with partner laboratories MAP (Digital Ecosystem) and LMGC (Structural Analysis). Involved in projects such as the nDame ecosystem, ANR DEMMEFI (studying fire-induced structural damage), and interdisciplinary efforts like REPERAGE (MAP/LRMH/SRA), the ASTRAGALE project primarily focuses on Notre-Dame’s masonry structures, with potential expansion to its timber frame.
 
