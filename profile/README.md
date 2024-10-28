@@ -3,7 +3,7 @@
 <div align="center">
 
 <h1 align="center">Astragale Project</h1>
-Astragale is a scientific project for bridging Built Cultural Heritage conservation data with mechanical simulation results. 
+Astragale is a scientific project for bridging Built Cultural Heritage conservation data with Civil Engineering mechanical simulation results. 
 
 </div>
 
@@ -37,24 +37,27 @@ In line with the endeavours of the [n-Dame_Heritage](http://www.ndameheritage.ma
 Central to the project is a modular, Knowledge Graph-based framework utilizing Semantic Web technologies. This approach enables structured, interoperable solutions that preserve and share knowledge on heritage buildings’ structural integrity and long-term preservation, fostering a robust foundation for interdisciplinary collaboration and innovative conservation practices.
 
 **Project Focus**
-Astragale focuses on bridging architectural survey data with structural models. Extracted data from simulations will correlate visible alterations with internal weaknesses or load concentration
+Astragale focuses on bridging architectural & built conservation survey data with structural models. Extracted data from simulations will correlate visible alterations of the built material with internal weaknesses, predicted cracks and deformations, or load concentration
 
 ## ✨ Features Overview
+*--- WIP ---*
 
 ## 📦 Repositories Overview
 > \[!WARNING]
 >
 > Please be aware that Astragale is currently under active development.
 
-+ [Semantics](https://github.com/prj-astragale/semantics)
-+ [StreamGraphiti](https://github.com/prj-astragale/streamgraphiti)
++ [Kibos](https://github.com/prj-astragale/kibos-head): This repository contains the configurations and Docker Compose deployment scripts necessary to launch and test the knowledge system *Kibos*. *Kibos* is designed as an event-centric system, integrating a Knowledge Graph for managing building-related knowledge.
++ [Semantics](https://github.com/prj-astragale/semantics): The repository dedicated to Semantic Web resources, including ontologies, ontology design patterns (ODPs) and thesauri, which form the backbone of the Knowledge Graph.
++ [StreamGraphiti](https://github.com/prj-astragale/streamgraphiti): An RDF stream processing service tailored for continuous data ingestion. *Streamgraphiti* updates the Knowledge Graph in real-time, applying predefined templates and resource patterns to incoming data streams, thus supporting dynamic updates and maintaining the relevance and accuracy of the integrated data.
++ *Biglake* (coming soon): Serving as the primary API Gateway. *Biglake* provides unified access to services and acts as the interface for external applications to interact with the system's resources and functions.
+
+## 📑 References
+*--- WIP ---*
 
 
+## Credits
+Astragale Project is founded by the *Mission Interdisciplinaire pour les Initiatives Transverses* (MITI) from the *Centre National de la Recherche Scientifique* (CNRS). It stems from a collaborative efforts between the laboratories *Modèles et Simulations pour l'Architecture et le Patrimoine* (MAP, [UPR CNRS 2002](https://www.map.cnrs.fr/) and [URM MC](https://www.map.archi.fr/), former UMR CNRS 3495), *Laboratoire de Mécanique et de Génie Civil de Montpellier* ([LMGC, Univ. Montpellier, UMR CNRS 5508](https://lmgc.umontpellier.fr/)) and the *Laboratoire d'Ingénierie des Systèmes Physiques et Numériques* ([LISPEN, Arts&Métiers EA 7515](https://lispen.artsetmetiers.fr/)). This project is located at the frontier between the "Digital Ecosystem Workgroup" and the "Structural Evaluation Workgroup" of the scientific consortium for the Restauration of Notre-Dame de Paris Cathedral, and align with the endeavors for the existing [Notre-Dame de Paris Digital Ecosystem](https://www.notre-dame.science/) and ERC [n-Dame_Heritage](http://www.ndameheritage.map.cnrs.fr/). 
 
-Conservation and restoration of built heritage are now commonly supported by scientific analysis, especially in structural assessment. The stability and condition of components are evaluated through materials science and civil engineering, supplemented by archaeometry and art history. This collaborative research, rooted in architectural surveys, is exemplified by the Notre-Dame de Paris scientific project, with partner laboratories MAP (Digital Ecosystem) and LMGC (Structural Analysis). Involved in projects such as the nDame ecosystem, ANR DEMMEFI (studying fire-induced structural damage), and interdisciplinary efforts like REPERAGE (MAP/LRMH/SRA), the ASTRAGALE project primarily focuses on Notre-Dame’s masonry structures, with potential expansion to its timber frame.
 
-However, the data generated from varied observations, representations, and interpretations are highly heterogeneous. This is compounded by the complexities of architectural and structural data, from in situ material inspections and historical archives to lab tests and computational models for mechanical analysis. Consequently, disconnected, linear methodologies emerge rather than cyclic, integrated processes, due to interface challenges between survey, modeling, structural analysis, and representation.
-
-ASTRAGALE aims to bridge architectural survey data with structural models, creating a coherent data integration. Extracted data from simulations will correlate visible alterations with internal weaknesses or load concentration patterns identified through structural analysis. This approach enables machine learning applications for correlating damage patterns. Using the CIDOC CRM, Web Annotation Data Model, and a rigorous methodology, ASTRAGALE prioritizes high interoperability and reproducibility.
-
-The complementary expertise of the partner labs was previously demonstrated through the ANR MONUMENTUM project, integrating MAP’s collaborative surveying and digital modeling with LMGC’s discrete-element structural analysis, forming a robust conceptual and technological foundation. Tasks are organized according to the data lifecycle, with a focus on capturing geometric survey data and its translation into structural calculation models. A collaborative environment will be implemented at the prototyping stage to build a reproducible analytical framework.
+All the works referred is under [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) unless otherwise stated
