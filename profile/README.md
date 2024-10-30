@@ -3,12 +3,11 @@
 <div align="center">
 
 <h1 align="center">Astragale Project</h1>
-Astragale is a scientific project for bridging Built Cultural Heritage conservation data with Civil Engineering mechanical simulation results. 
+*Astragale* is a scientific project for bridging Built Cultural Heritage conservation data with Civil Engineering mechanical simulation results. 
 
 </div>
 
 #### TOC
-
 - [🔦 Project Summary](#-project-summary)
 - [✨ Features Overview](#-repositories-overview)
 - [📦 Repositories Overview](#-repositories-overview)
@@ -36,8 +35,7 @@ In line with the endeavours of the [n-Dame_Heritage](http://www.ndameheritage.ma
 
 Central to the project is a modular, Knowledge Graph-based framework utilizing Semantic Web technologies. This approach enables structured, interoperable solutions that preserve and share knowledge on heritage buildings’ structural integrity and long-term preservation, fostering a robust foundation for interdisciplinary collaboration and innovative conservation practices.
 
-**Project Focus**
-Astragale focuses on bridging architectural & built conservation survey data with structural models. Extracted data from simulations will correlate visible alterations of the built material with internal weaknesses, predicted cracks and deformations, or load concentration
+**Project Focus**: *Astragale* focuses on bridging architectural & built conservation survey data with structural models. Extracted data from simulations will correlate visible alterations of the built material with internal weaknesses, predicted cracks and deformations, or load concentration
 
 ## ✨ Features Overview
 *--- WIP ---*
