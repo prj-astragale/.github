@@ -45,10 +45,11 @@ Central to the project is a modular, Knowledge Graph-based framework utilizing S
 >
 > Please be aware that Astragale is currently under active development.
 
-+ [Kibos](https://github.com/prj-astragale/kibos-head): This repository contains the configurations and Docker Compose deployment scripts necessary to launch and test the knowledge system *Kibos*. *Kibos* is designed as an event-centric system, integrating a Knowledge Graph for managing building-related knowledge.
++ [Kibos](https://github.com/prj-astragale/kibos): This repository contains the configurations and Docker Compose deployment scripts necessary to launch and test the knowledge system *Kibos*. *Kibos* is designed as an event-centric system, integrating a Knowledge Graph for managing building-related knowledge.
 + [Semantics](https://github.com/prj-astragale/semantics): The repository dedicated to Semantic Web resources, including ontologies, ontology design patterns (ODPs) and thesauri, which form the backbone of the Knowledge Graph.
 + [StreamGraphiti](https://github.com/prj-astragale/streamgraphiti): An RDF stream processing service tailored for continuous data ingestion. *Streamgraphiti* updates the Knowledge Graph in real-time, applying predefined templates and resource patterns to incoming data streams, thus supporting dynamic updates and maintaining the relevance and accuracy of the integrated data.
 + *Biglake* (coming soon): Serving as the primary API Gateway. *Biglake* provides unified access to services and acts as the interface for external applications to interact with the system's resources and functions.
++ *Astradash* (comming soon): A concise dashboard for summarizing building survey, models and simulation data.
 
 ## 📑 References
 *--- WIP ---*
